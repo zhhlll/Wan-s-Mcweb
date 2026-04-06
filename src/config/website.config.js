@@ -2,10 +2,10 @@
 export const websiteConfig = {
   // 网站基本信息
   site: {
-    title: "晚晚服",
-    description: "欢迎来到晚晚服，探索无限可能的方块世界！",
+    title: "Pura Water服",
+    description: "欢迎来到Pura Water服，探索无限可能的方块世界！",
     keywords: "Minecraft,服务器,我的世界,Java版,生存,创造,生电",
-    author: "晚晚服",
+    author: "Pura Water服",
     language: "zh-CN"
   },
 
@@ -24,7 +24,7 @@ export const websiteConfig = {
         pageTitle: {
           // 主标题配置（支持打字机效果）
           mainTitle: {
-            texts: ["欢迎来到 晚晚服", "Welcome to DuskCraft"], // 多语言标题数组
+            texts: ["欢迎来到 Pura Water服", "Welcome to DuskCraft"], // 多语言标题数组
             typewriter: {
               enabled: true, // 是否启用打字机效果
               speed: 100,    // 打字速度（毫秒）
@@ -67,7 +67,7 @@ export const websiteConfig = {
         externalUrl: "", // 外链地址（仅在external为true时生效）
         pageTitle: {
           mainTitle: {
-            texts: ["晚晚服服历程", "DCS History"],
+            texts: ["Pura Water服服历程", "DCS History"],
             typewriter: {
               enabled: true,
               speed: 100,
@@ -329,9 +329,6 @@ export const websiteConfig = {
         title: "服务器信息",
         icon: "information",
         items: [
-          { label: "服务器类别", value: "物理机" },
-          { label: "CPU", value: "i9-13900kf" },
-          { label: "内存", value: "128GB DDR5" },  
           { label: "类型", value: "生存，生电，建筑" },
           { label: "最大玩家", value: "100人" },
           { label: "在线时间", value: "7X24小时" }
@@ -345,7 +342,6 @@ export const websiteConfig = {
         icon: "cog",
         items: [
           { label: "IPV4网络", value: "✓" },
-          { label: "IPV6网络", value: "✓" },
           { label: "镜像服务器", value: "✓" },
           { label: "双重备份", value: "✓" },
           { label: "群服互通", value: "✓" },
@@ -359,9 +355,8 @@ export const websiteConfig = {
         title: "管理团队",
         icon: "shield-account",
         items: [
-          { label: "_YUTONG_", value: "腐竹-物理服主！" },
-          { label: "wanwan_jiean", value: "腐竹-技术和主要管理" },
-          { label: "CrazyPastor", value: "腐竹-不务正业" }
+          { label: "Frostbyte", value: "腐竹-物理服主！" },
+          { label: "hth", value: "服务商" }
         ]
       }
     },
